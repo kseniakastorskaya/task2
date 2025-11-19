@@ -94,6 +94,9 @@ PlantUML — это текстовый формат, который можно �
 
 ```plantuml
 @startuml
-"mypkg" --> "libc6"
-"mypkg" --> "libgcc1"
+"curl" --> "libc6"
+"curl" --> "libcurl4"
+"curl" --> "zlib1g"
 @enduml
+
+
