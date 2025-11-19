@@ -69,7 +69,7 @@ python depviz_cli.py --package mypkg --repo https://github.com/example/repo.git 
 ---
 
 ## Пример запуска
-python depviz_cli.py --package mypkg --repo http://archive.ubuntu.com/ubuntu/dists/focal/main/binary-amd64/Packages --mode remote --version 1.0.0 --max-depth 3
+python .\depviz_cli.py --package curl --repo http://archive.ubuntu.com/ubuntu/dists/focal/main/binary-amd64/Packages.gz --mode remote --version 1.0.0 --max-depth 3
 
 ## Этап 5 — Визуализация зависимостей
 
